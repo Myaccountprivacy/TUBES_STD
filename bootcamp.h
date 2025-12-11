@@ -53,13 +53,10 @@ adrBootcamp createElmBootcamp(infoBootcamp data);
 adrSesi createElmSesi(infoSesi data);
 
 // (a) Menambahkan bootcamp (Insert Parent)
-// Disarankan insertLast agar urutan sesuai input
 void insertBootcamp(List &L, adrBootcamp P);
 
 // (b) & (d) Menambahkan sesi ke bootcamp tertentu
 void addSesiToBootcamp(List &L, string judulBootcamp, adrSesi C);
-
-
 
 // (c) Mencari bootcamp tertentu berdasarkan judul
 adrBootcamp findBootcamp(List L, string judul);
