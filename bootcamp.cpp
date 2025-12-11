@@ -74,7 +74,13 @@ void showAll(List L) {
 
 // (i) Menghitung jumlah sesi dalam bootcamp tertentu
 int countSesi(List L, string judulBootcamp) {
-
+    int tally=0;
+    adrSesi p=L.first->firstSesi;
+    while (p!=nullptr) {
+        tally++;
+        p=p->next;
+    }
+    return tally;
 }
 
 // (j) Menampilkan bootcamp dengan sesi terbanyak dan paling sedikit
