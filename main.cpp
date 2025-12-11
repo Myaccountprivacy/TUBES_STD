@@ -11,14 +11,14 @@ int main() {
     adrBootcamp pB;
     adrSesi;
 
-    pilihan = -1
+    pilihan = -1;
 
-    while (piloihan != 0){
+    while (pilihan != 0){
         printMenu();
         cout << "Masukkan pilihan  :";
         cin >> pilihan;
 
-        coutt << "\n";
+        cout << "\n";
 
         if (pilihan == 1){
             cout << "--- Tambah Bootcamp ---\n";
@@ -29,7 +29,7 @@ int main() {
 
             pB = createElmBootcamp_103012400164(dataB);
             insertBootcamp_103012400164(L, pB);
-            cout << "Bootcamp berhasil didaftarkan. \n"
+            cout << "Bootcamp berhasil didaftarkan. \n";
                 
         } else if (pilihan == 2){
             cout << "--- Tambah Sesi ---\n";
