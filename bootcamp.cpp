@@ -41,7 +41,14 @@ void addSesiToBootcamp(List &L, string judulBootcamp, adrSesi C) {
 
 // (c) Mencari bootcamp tertentu berdasarkan judul
 adrBootcamp findBootcamp(List L, string judul) {
-
+    adrBootcamp p=L.first;
+    while (p!=nullptr) {
+        if (p->info.judul==judul) {
+            return p;
+        }
+        p=p->next;
+    }
+    return nullptr;
 }
 
 // (e) Menampilkan sesi berdasarkan bootcamp tertentu
