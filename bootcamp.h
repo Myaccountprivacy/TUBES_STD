@@ -6,10 +6,6 @@
 
 using namespace std;
 
-// ==========================================
-// 1. DEFINISI TIPE DATA & POINTER
-// ==========================================
-
 // Pointer ke alamat memori
 typedef struct elmBootcamp* adrBootcamp;
 typedef struct elmSesi* adrSesi;
@@ -21,15 +17,13 @@ struct infoBootcamp {
     string kategori;   // misal: Web, Mobile, Data
 };
 
+
 struct infoSesi {
     string namaSesi;
     int durasi;        // dalam jam
     string kesulitan;  // Beginner, Intermediate, Advanced
 };
 
-// ==========================================
-// 2. STRUKTUR ELEMEN (NODE)
-// ==========================================
 
 // CHILD: Sesi Pelatihan (Doubly Linked List)
 struct elmSesi {
@@ -50,9 +44,7 @@ struct List {
     adrBootcamp first; // Head dari list bootcamp
 };
 
-// ==========================================
-// 3. PRIMITIF DASAR (CREATE & STRUKTUR)
-// ==========================================
+
 
 // Membuat List kosong (List Parent)
 void createList(List &L);
@@ -70,9 +62,6 @@ void insertBootcamp(List &L, adrBootcamp P);
 void addSesiToBootcamp(List &L, string judulBootcamp, adrSesi C);
 
 
-// ==========================================
-// 4. FUNGSIONALITAS UTAMA (SESUAI SOAL)
-// ==========================================
 
 // (c) Mencari bootcamp tertentu berdasarkan judul
 adrBootcamp findBootcamp(List L, string judul);
