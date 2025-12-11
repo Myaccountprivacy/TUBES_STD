@@ -84,8 +84,20 @@ int countSesi(List L, string judulBootcamp) {
 }
 
 // (j) Menampilkan bootcamp dengan sesi terbanyak dan paling sedikit
-void showMinMaxSesi(List L) {
-
+void showMinMaxSesi(List L) { // might be wrong
+    adrSesi p=L.first->firstSesi;
+    adrSesi top=L.first->firstSesi;
+    adrSesi bottom=L.first->firstSesi;
+    while (p!=nullptr) {
+        if (countSesi(L, p->info.namaSesi) > countSesi(L, top->info.namaSesi)) {
+            top=p;
+        }
+        if (countSesi(L, p->info.judul) < countSesi(L, bottom->info.namaSesi)) {
+            bottom=p;
+        }
+        p=p->next;
+    }
+    cout<<"Bootcamp dengan sesi terbanyak: "<<top->info.namaSesi<<" ("<<countSesi(L, top->info.namaSesi)<<" sesi)"<<endl;
 }
 
 // Helper untuk menu (k)
