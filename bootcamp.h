@@ -3,7 +3,6 @@
 
 #include <iostream>
 #include <string>
-
 using namespace std;
 
 // Pointer ke alamat memori
