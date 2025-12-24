@@ -54,7 +54,10 @@ int main() {
             cout << "--- Tampilkan Sesi Bootcamp ---\n";
             string judulCari3;
             cout<<"Bootcamp yang dicari : "; cin>>judulCari3;
-            showSesiByBootcamp_103012400164(L, judulCari3);    
+            showSesiByBootcamp_103012400164(L, judulCari3);
+            cout << "\nTekan Enter untuk kembali ke menu...";
+            cin.ignore();
+            cin.get();    
         } else if (pilihan == 5){
             cout << "--- Hapus Bootcamp beserta sesinya ---\n";
             string judulCari4;
