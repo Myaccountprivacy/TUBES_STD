@@ -22,10 +22,10 @@ int main() {
 
         if (pilihan == 1) {
             cout<<"--- Tambah Bootcamp ---\n";
-            cout<<"(Gunakan underscore '_' sebagai pengganti spasi).\n ";
-            cout<<"Judul Bootcamp\t:  "; cin>>dataB.judul;
-            cout<<"Penyelenggara\t:  "; cin>>dataB.penulis;
-            cout<<"Kategori\t\t:  "; cin>>dataB.kategori;
+            cout<<"(Gunakan underscore '_' sebagai pengganti spasi).\n";
+            cout<<"Judul Bootcamp\t\t: "; cin>>dataB.judul;
+            cout<<"Penyelenggara\t\t: "; cin>>dataB.penulis;
+            cout<<"Kategori\t\t\t: "; cin>>dataB.kategori;
             pB = createElmBootcamp_103012400164(dataB);
             insertBootcamp_103012400164(L, pB);
             cout << "Bootcamp berhasil didaftarkan.\n";
