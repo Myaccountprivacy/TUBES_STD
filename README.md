@@ -6,7 +6,6 @@ Dibuat oleh:
 
 Untuk menjalankan, ketik di terminal:
 ```
-g++ -c -o bootcamp.o bootcamp.cpp
-g++ -o main.exe main.o bootcamp.o
+g++ main.cpp bootcamp.cpp -o main.exe
 .\main.exe
 ```
