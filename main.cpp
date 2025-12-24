@@ -15,7 +15,7 @@ int main() {
 
     while (pilihan != 10){
         printMenu();
-        cout << "Masukkan pilihan  :";
+        cout << "\nMasukkan pilihan  :";
         cin >> pilihan;
 
         cout << "\n";
