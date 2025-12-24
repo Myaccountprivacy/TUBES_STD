@@ -133,6 +133,8 @@ void deleteBootcamp_103012400206(List &L, string judulBootcamp) {
             prev->next=p->next;
         }
         p=nullptr;
+    } else {
+        cout<<"Bootcamp dengan nama "<<judulBootcamp<<" tidak ditemukan.\n";
     }
 }
 
@@ -160,6 +162,8 @@ void deleteSesi_103012400206(List &L, string judulBootcamp, string namaSesi) {
             }
             p=nullptr;
         }
+    } else {
+        cout<<"Bootcamp dengan nama "<<judulBootcamp<<" tidak ditemukan.\n";
     }
 }
 

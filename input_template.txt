@@ -1,0 +1,61 @@
+IF PILIHAN==1
+gazoo_racing
+toyota
+motorsports
+
+pratt_miller_motorsports
+general_motors
+motorsports
+
+scuderia_ferrari
+ferrari
+motorsports
+
+
+IF PILIHAN==2
+gazoo_racing
+world_endurance_championship
+24
+advanced
+
+gazoo_racing
+world_rally_championship
+2
+advanced
+
+pratt_miller_motorsports
+imsa_sportscar_championship
+24
+intermediate
+
+scuderia_ferrari
+formula_1
+3
+advanced
+
+
+IF PILIHAN==3
+gazoo_racing
+
+arrow_mclaren
+
+
+IF PILIHAN==4
+pratt_miller_motorsports
+
+m_sport_ford_wrt
+
+
+IF PILIHAN==5
+scuderia_ferrari
+
+mercedes_amg
+
+
+IF PILIHAN==6
+gazoo_racing
+world_rally_championship
+
+
+IF PILIHAN==8
+pratt_miller_motorsports

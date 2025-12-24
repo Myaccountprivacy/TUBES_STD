@@ -67,12 +67,15 @@ int main() {
             cout << "Sesi yang ingin dihapus : "; cin >> cariSesi;
             deleteSesi_103012400206(L, judulCari5, cariSesi);        
         } else if (pilihan == 7){
+            cout << "--- Tampilkan Semua Bootcamp beserta Sesinya ---\n";
             showAll(L);        
         } else if (pilihan == 8){
+            cout<<"--- Hitung Jumlah Sesi dalam Bootcamp ---\n";
             string judulCari6;
             cout << "Nama Bootcamp : "; cin >> judulCari6;
             cout << countSesi_103012400164(L, judulCari6) << "\n";        
         } else if (pilihan == 9){
+            cout<<"--- Tampilkan Bootcamp dengan Jumlah Sesi Terbanyak dan Tersedikit ---\n";
             showMinMaxSesi_103012400164(L);   
         }     
     }
