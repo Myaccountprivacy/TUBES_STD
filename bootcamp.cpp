@@ -94,9 +94,9 @@ void showSesiByBootcamp_103012400164(List L, string judulBootcamp) {
     F.S. Menampilkan seluruh sesi dari bootcamp dengan judul tertentu
 */
     adrBootcamp bc=findBootcamp_103012400164(L,judulBootcamp);
-    adrSesi p=bc->firstSesi;
     if (bc!=nullptr) {
         cout<<"Sesi pada bootcamp "<<judulBootcamp<<":\n";
+        adrSesi p=bc->firstSesi;
         while (p!=nullptr) {
             cout<<"- "<<p->info.namaSesi<<" | Durasi: "<<p->info.durasi<<" jam | Kesulitan: "<<p->info.kesulitan<<"\n";
             p=p->next;

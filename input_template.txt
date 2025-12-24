@@ -23,6 +23,11 @@ world_rally_championship
 2
 advanced
 
+gazoo_racing
+gt_world_challenge_asia
+3
+beginner
+
 pratt_miller_motorsports
 imsa_sportscar_championship
 24
