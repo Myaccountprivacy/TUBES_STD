@@ -1,4 +1,6 @@
-IF PILIHAN==1
+Untuk input, template digunakan agar lebih mudah.
+
+IF PILIHAN==0
 1
 gazoo_racing
 toyota
